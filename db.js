@@ -18,10 +18,7 @@ const mongoDB=async()=>{
                       global.food_items=data;
                       global.foodCategory=catData;
                 })
-                // if(err) console.log(err);
-                // else 
-                // global.food_items=data;
-                
+               
             })
 
         }
