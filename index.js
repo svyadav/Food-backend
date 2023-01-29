@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 const mongoDB=require('./db')
 var cors = require('cors')
-const port = 5000
+const port = 8000
 
 mongoDB()
 
